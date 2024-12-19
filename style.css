@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Pacifico;
+  /* overflow-x: hidden; */
+  /* background-image: linear-gradient( 0deg, white ,rgb(211, 141, 211)) */
+}
+.nav {
+  /* display: flex; */
+  /* background-color: rgb(211, 141, 211); */
+  border:5px solid  rgb(211, 141, 211);
+  background: white;
+  border-radius:50px;
+  margin: 10px;
+  /* width: 1000px */
+  
+
+}
+body{
+  background-image: linear-gradient( 0deg, white ,rgb(211, 141, 211))
+  
+}
+/* .b{
+} */
+.ul {
+position: sticky;
+top: 10px;
+  display: flex;
+  /* margin: 10px; */
+  padding: 20px;
+  font-size: 30px;
+  justify-content: space-between;
+  
+}
+.ul>a{
+  text-decoration: none;
+  color: black;
+}
+.about{
+  list-style: none;
+}
+.header {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 10%;  */
+  text-align: center;
+  padding: 20px
+
+  
+}
+
+.header>h1{
+  font-family: Pacifico;
+}
+
+.header>button{
+  font-family: Pacifico;
+}
+
+
+.header>p{
+  font-family: Pacifico;
+}
+.woman {
+  width: 200px;
+  border-radius: 50%;
+  align-content: center;
+}
+
+.h1 {
+  font-weight: bolder;
+}
+
+.p2 {
+  font-weight: bolder;
+}
+
+
+
+.button {
+  --bg: #000;
+  --hover-bg:  rgb(211, 141, 211);
+  --hover-text: #000;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid var(--bg);
+  border-radius: 4px;
+  padding: 0.8em 2em;
+  background: var(--bg);
+  transition: 0.2s;
+  margin-top: 15px;
+}
+
+.button:hover {
+  color: var(--hover-text);
+  transform: translate(-0.25rem, -0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+
+
+.button:active {
+  transform: translate(0);
+  box-shadow: none;
+}
+
+.about_me {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  font-family:Srisakdi;
+}
+
+.my-skills {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+
+}
+.skill-set{
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+   
+}
+
+
+.footer{
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 10%;
+
+}
+.hire-me{
+  display: flex;
+  flex-direction: column;
+  margin-top:5%;
+  gap: 10px;
+}
+
+
+
+.html>i{
+  font-size: 50px;
+/* padding:1%; */
+}
+
+.css>i{
+  font-size: 50px;
+
+}
+.js>i{
+  font-size: 50px;
+
+}
+/* .file{
+  margin-bottom: 10px;
+  /* padding: 10px; */
+  /* width: 20%;
+  height: 30px; */
+
+.hire-me>i{
+  font-size: 50px;
+  text-align: center;
+  background-color: #ff90e8;
+/* width: 100%; */
+border-radius: 50%;
+padding: 10px;
+margin: 0 auto;
+}
+ 
+
+
+.btn{
+  position: relative;
+  align-content: center;
+  display: inline-block;
+  width: 40%;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: rgb(211, 141, 211);
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid rgb(211, 141, 211);
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 rgb(211, 141, 211);
+}
+
+.btn:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 rgb(211, 141, 211);
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+/* .p3{
+  font-family: Pacifico;
+}
+
+.ul>li{
+  font-family: Pacifico;
+}
+
+
+.m>li{
+  font-family: Pacifico;
+}
+.n>li{
+  font-family: Pacifico;
+}
+
+.o>li{
+  font-family: Pacifico;
+}
+
+.h{
+  font-family: Pacifico;
+}
+.skil{
+
+  font-family: Pacifico;
+}
+.my-skills{
+  font-family: Pacifico; 
+}
+.footer{
+  font-family: Pacifico; 
+}
+.btn{
+  font-family: Pacifico; 
+} */
+
+
+/* .text{
+  border: 2px solid  rgb(211, 141, 211);
+  border-radius: 8px;
+} */
+
+.text{
+
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+}
+.text:focus {
+     border-color: rgb(211, 141, 211);
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     outline: none;
+ }
+
+ .foot{
+  /* box-sizing: border-box; */
+  border: 2px solid  rgb(211, 141, 211);
+  display: flex;
+  flex-direction: column;
+}
+/* height: 200px; */
+
+ /* .flex{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+ }
+.fl{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.ex{
+  display: flex;
+  flex-direction: row;
+} */
+  .foot{
+   height: auto; 
+  min-height: 200px;
+  background-color: linear-gradien  rgb(211, 141, 211) white  ;
+ } 
